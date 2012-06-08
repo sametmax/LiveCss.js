@@ -1,4 +1,4 @@
-livecss.js: refresh CSS without reloading the page
+LiveCss.js: refresh CSS without reloading the page
 ===================================================
 
 LiveCss.js is a tiny standalone javascript library that refreshes CSS styles without reloading the entire page. It's distributed under the WTF licence.
