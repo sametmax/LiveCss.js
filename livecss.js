@@ -181,7 +181,7 @@
           liveCss.stop();
         }
         else {
-          options = liveCss.isEmtpyObject(options) ? liveCss.state : options;
+          options = liveCss.isEmptyObject(options) ? liveCss.state : options;
           liveCss.start(options);
         }
       },
@@ -356,7 +356,7 @@
       })(),
 
       /** Return true if an object has not any own property */
-      isEmtpyObject: function(o) {
+      isEmptyObject: function(o) {
           for(var i in o){
             if(o.hasOwnProperty(i)){
               return false;
